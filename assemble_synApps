@@ -78,7 +78,7 @@ if ($releasefile eq "default")
 	# $modules{'MEASCOMP'} = 'R4-2';
 	# $modules{'ULDAQ'} = '1.2.1';
 	# $modules{'MODBUS'} = 'R3-3';
-	$modules{'MOTOR'} = 'R7-3-1';
+	# $modules{'MOTOR'} = 'R7-3-1';
 	# $modules{'MCOREUTILS'} = '1.2.2';
 	# $modules{'OPCUA'} = 'v0.9.3';
 	# $modules{'UASDK'} = '/path/to/sdk';
