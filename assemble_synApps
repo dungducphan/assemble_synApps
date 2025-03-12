@@ -52,7 +52,7 @@ if ($releasefile eq "default")
 	$modules{'ALIVE'} = 'R1-4-1';
 	# $modules{'ALLENBRADLEY'} = '2.3';
 	$modules{'AREA_DETECTOR'} = 'R3-13';
-	$modules{'AREA_DETECTOR_SUBMODULES'} = 'ADSimDetector ADGenICam ADSpinnaker ADPylon pvaDriver'; # Space-separated list of extra submodules to check out
+	$modules{'AREA_DETECTOR_SUBMODULES'} = 'ADSimDetector ADGenICam ADSpinnaker ADPylon pvaDriver NDDriverStdArrays'; # Space-separated list of extra submodules to check out
 	$modules{'ASYN'} = 'R4-44-2';
 	$modules{'AUTOSAVE'} = 'R5-11';
 	$modules{'BUSY'} = 'R1-7-4';
@@ -78,7 +78,7 @@ if ($releasefile eq "default")
 	# $modules{'MEASCOMP'} = 'R4-2';
 	# $modules{'ULDAQ'} = '1.2.1';
 	# $modules{'MODBUS'} = 'R3-3';
-	# $modules{'MOTOR'} = 'R7-3-1';
+	$modules{'MOTOR'} = 'R7-3-1';
 	# $modules{'MCOREUTILS'} = '1.2.2';
 	# $modules{'OPCUA'} = 'v0.9.3';
 	# $modules{'UASDK'} = '/path/to/sdk';
